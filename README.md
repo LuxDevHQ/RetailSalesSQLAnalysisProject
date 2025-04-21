@@ -5,7 +5,7 @@
 
 
 
-````sql
+```sql
 --Insert Data into practise.Inventory Table
 INSERT INTO practise.Inventory (product_id, stock_quantity) 
 VALUES
