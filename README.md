@@ -1,6 +1,49 @@
+```sql
 
-
-
+-- CREATE practise SCHEMA
+create schema practise;
+ 
+--CREATE Customers TABLE IN THE practise SCHEMA
+CREATE TABLE practise.Customers (
+customer_id INT PRIMARY KEY,
+first_name VARCHAR(50),
+last_name VARCHAR(50),
+email VARCHAR(100),
+phone_number VARCHAR(15),
+registration_date DATE,
+membership_status VARCHAR(10)
+);
+ 
+-- --CREATE Products TABLE IN THE practise SCHEMA
+CREATE TABLE practise.Products (
+product_id INT PRIMARY KEY,
+product_name VARCHAR(100),
+category VARCHAR(50),
+price DECIMAL(10, 2),
+supplier VARCHAR(100),
+stock_quantity INT
+);
+ 
+--CREATE Sales TABLE IN THE practise SCHEMA
+CREATE TABLE practise.Sales (
+sale_id INT PRIMARY KEY,
+customer_id INT,
+product_id INT,
+quantity_sold INT,
+sale_date DATE,
+total_amount DECIMAL(10, 2),
+FOREIGN KEY (customer_id) REFERENCES practise.Customers(customer_id),
+FOREIGN KEY (product_id) REFERENCES practise.Products(product_id)
+);
+ 
+ 
+--CREATE Inventory TABLE IN THE practise SCHEMA
+CREATE TABLE practise.Inventory (
+product_id INT PRIMARY KEY,
+stock_quantity INT,
+FOREIGN KEY (product_id) REFERENCES practise.Products(product_id)
+);
+```
 
 
 
