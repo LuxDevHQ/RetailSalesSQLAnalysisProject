@@ -45,7 +45,7 @@ FOREIGN KEY (product_id) REFERENCES practise.Products(product_id)
 );
 ```
 
-#### **INSERT DATA INTO practise.Customers  Table.**
+#### **INSERT DATA INTO practise.Customers Table.**
 ```sql
 INSERT INTO practise.Customers 
 (customer_id, first_name, last_name, email, phone_number, registration_date, membership_status) 
@@ -554,6 +554,7 @@ values
 ```
 
 
+#### **INSERT DATA INTO practise.Inventory Table.**
 
 ```sql
 --Insert Data into practise.Inventory Table
