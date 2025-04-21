@@ -20,6 +20,10 @@
 - Track the product stock changes over the past 6 months.
 - Create a report showing products with stock levels and how many days of sales the current inventory can cover.
 
+Instread of creating your own account, you can connect to LuxDevHQ Aiven Service and Connect to the DB using the connection String given below:
+![image](https://github.com/user-attachments/assets/bb1a3235-1e17-4179-ad6f-3a845babc6f7)
+
+
 #### **CREATE practise AND CREATE Customers, Products, Sales, and Inventory Tables.**
 ```sql
 -- CREATE practise SCHEMA
