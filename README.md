@@ -1,3 +1,25 @@
+#### **Use the scripts below this document to create tables and use the data to answer the questions below.**
+
+**Customer Analysis:**
+- Find the total number of customers and categorize them based on their membership status.
+- Calculate the average amount spent by each customer in the last 6 months.
+- List the top 5 customers who have spent the most in the past year.
+
+**Product Performance:**
+- Find the most sold product by quantity in the last month.
+- Find the least sold product by quantity in the last month.
+- Calculate the total sales per product (revenue) in the last quarter.
+
+**Sales Analysis:**
+- Calculate the total sales revenue generated in the last month.
+- Identify the peak sales days of the week and suggest which days are best for promotions.
+- Find the products that generated the highest revenue in the last 3 months.
+
+**Inventory Analysis:**
+- Identify products that need reordering based on sales trends (if stock level is below a threshold).
+- Track the product stock changes over the past 6 months.
+- Create a report showing products with stock levels and how many days of sales the current inventory can cover.
+
 #### **CREATE practise AND CREATE Customers, Products, Sales, and Inventory Tables.**
 ```sql
 -- CREATE practise SCHEMA
